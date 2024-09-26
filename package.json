@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "gh-pages": "^6.1.1",
     "hardhat": "^2.12.0"
   }
 }
