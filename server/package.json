@@ -1,0 +1,17 @@
+{
+  "name": "codex-server",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "server": "nodemon server"
+  },
+  "dependencies": {
+    "codex-server": "file:",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.21.0",
+    "nodemon": "^2.0.20",
+    "openai": "^4.63.0"
+  }
+}

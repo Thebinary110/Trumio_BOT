@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="megabot" />
+    <meta name="keywords" content="megabot" />
+    <meta name="author" content="megabot" />
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.png"
+      type="image/x-icon"
+    />
+    <title>Megabot</title>
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap css -->
+    <link
+      id="rtl-link"
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/vendors/bootstrap.css"
+    />
+
+    <!-- remixicon css -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/vendors/remixicon.css"
+    />
+
+    <!-- iconsax css -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/vendors/iconsax.css"
+    />
+
+    <!-- animation css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/aos.css" />
+
+    <!-- swiper slider css -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/vendors/swiper-bundle.min.css"
+    />
+
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  </head>
+
+  <body class="inner-bg">
+    <!-- header start -->
+    <header>
+      <button
+        class="navbar-toggler d-xl-none d-inline navbar-menu-button"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#primaryMenu"
+      >
+        <span class="navbar-toggler-icon">
+          <i class="iconsax" data-icon="text-align-justify"></i>
+        </span>
+      </button>
+      <a href="index.html">
+        <img src="assets/images/logo.svg" class="img-fluid" alt="logo" />
+      </a>
+      <nav class="header-nav-middle">
+        <div
+          class="main-nav navbar navbar-expand-xl navbar-light navbar-sticky"
+        >
+          <div class="offcanvas offcanvas-collapse order-xl-2" id="primaryMenu">
+            <div class="offcanvas-header navbar-shadow">
+              <h5 class="mb-0">Back</h5>
+              <button
+                class="btn-close lead"
+                type="button"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="chat.html">Chat</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="javascript:void(0)"
+                    data-bs-toggle="dropdown"
+                    >Pages</a
+                  >
+
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="404.html">404</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="login.html">Login</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="reset-password.html"
+                        >Reset Password</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="otp.html">OTP</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="blog-grid.html"
+                        >Blog Grid</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="blog-listing.html"
+                        >Blog Listing</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="blog-details.html"
+                        >Blog Details</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="terms.html"
+                        >Terms & Conditon</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="service.html">service</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="pricing.html">pricing</a>
+                </li>
+
+                <li class="nav-item active">
+                  <a class="nav-link" href="contact-us.html">contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <a
+        data-cursor="pointer"
+        href="login.html"
+        class="btn btn-theme d-sm-inline-block d-none"
+        ><span>Login Now</span></a
+      >
+    </header>
+    <!-- header end -->
+
+    <!-- breadcrumb section start -->
+    <section class="breadcrumb-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="breadcrumb-content">
+              <div>
+                <h2>
+                  <img
+                    src="assets/images/breadcrumb-title.png"
+                    class="img-fluid"
+                    alt="title-effect"
+                  />Contact us
+                </h2>
+                <p>
+                  <i class="ri-subtract-line"></i>Email us with any questions,
+                  we would be happy to answer your question.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 d-lg-inline-block d-none">
+            <div class="breadcrumb-img">
+              <img
+                src="assets/svg/contact-vector.svg"
+                class="img-fluid"
+                alt="service"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- breadcrumb section end -->
+
+    <!-- contact section start -->
+    <section class="contact-section pb-md-5 pb-0">
+      <div class="container">
+        <ul class="contact-box">
+          <li>
+            <div class="contact-icon">
+              <img
+                src="assets/svg/contact/message.svg"
+                class="img-fluid"
+                alt="message"
+              />
+            </div>
+            <h3>Mail id</h3>
+            <h4>contact@megabot.com</h4>
+            <h4>inquiry@megabot.com</h4>
+          </li>
+          <li>
+            <div class="contact-icon">
+              <img
+                src="assets/svg/contact/contact.svg"
+                class="img-fluid"
+                alt="message"
+              />
+            </div>
+            <h3>Contact no.</h3>
+            <h4>(406) 555-0120</h4>
+            <h4>(684) 555-0102</h4>
+          </li>
+          <li>
+            <div class="contact-icon">
+              <img
+                src="assets/svg/contact/route.svg"
+                class="img-fluid"
+                alt="message"
+              />
+            </div>
+            <h3>Address 1</h3>
+            <h4>2118 Thornridge Cir.</h4>
+            <h4>Syracuse, Connecticut 35624</h4>
+          </li>
+          <li>
+            <div class="contact-icon">
+              <img
+                src="assets/svg/contact/address.svg"
+                class="img-fluid"
+                alt="message"
+              />
+            </div>
+            <h3>Address 2</h3>
+            <h4>2972 Westheimer Rd. Santa</h4>
+            <h4>Ana, Illinois 85486</h4>
+          </li>
+        </ul>
+        <div class="contact-details">
+          <div class="row g-lg-5 g-4">
+            <div class="col-xl-7 col-lg-6">
+              <form class="auth-form">
+                <div class="row g-4">
+                  <div class="col-sm-6">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="email" class="form-control" id="name" />
+                  </div>
+                  <div class="col-sm-6">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" />
+                  </div>
+                  <div class="col-12">
+                    <label for="phoneNumber" class="form-label"
+                      >Phone number</label
+                    >
+                    <input type="email" class="form-control" id="phoneNumber" />
+                  </div>
+                  <div class="col-12">
+                    <label for="message" class="form-label"
+                      >Additional Message</label
+                    >
+                    <textarea
+                      class="form-control"
+                      id="message"
+                      rows="3"
+                    ></textarea>
+                  </div>
+                  <div class="col-12">
+                    <a href="" data-cursor="pointer" class="btn-solid"
+                      >Send message</a
+                    >
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="col-xl-5 col-lg-6">
+              <div class="map-sec">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79567.57700797812!2d-112.12049328183899!3d33.42503734906143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b12ed50a179cb%3A0x8c69c7f8354a1bac!2sPhoenix%2C%20AZ%2C%20USA!5e0!3m2!1sen!2sin!4v1683867729748!5m2!1sen!2sin"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section end -->
+
+    <!-- contact us start -->
+    <section class="info-section section-b-space">
+      <div class="container">
+        <div
+          class="info-box"
+          data-aos="fade-in"
+          data-aos-duration="1000"
+          data-aos-delay="100"
+        >
+          <div class="hand-effect d-md-block d-none">
+            <img
+              src="assets/svg/hand.svg"
+              class="img-fluid left-hand"
+              alt="hand"
+            />
+            <img
+              src="assets/svg/hand.svg"
+              class="img-fluid right-hand"
+              alt="hand"
+            />
+          </div>
+          <h2>
+            Ready to
+            <span
+              >move
+              <img
+                src="assets/svg/title-effect.svg"
+                class="img-fluid"
+                alt="title-effect"
+            /></span>
+            ahead?
+          </h2>
+          <p>
+            With the help of our ground-breaking AI tool, unlock the potential
+            of cutting-edge AI technology and increase your productivity to new
+            heights. Embrace the future today and let our AI tool redefine
+            what's possible for you.
+          </p>
+          <ul>
+            <li>
+              <img src="assets/svg/tick.svg" class="img-fluid" alt="tick" />Free
+              images for lifetime
+            </li>
+            <li>
+              <img src="assets/svg/tick.svg" class="img-fluid" alt="tick" />Get
+              details on any topic
+            </li>
+            <li>
+              <img
+                src="assets/svg/tick.svg"
+                class="img-fluid"
+                alt="tick"
+              />Quick advisor to help you
+            </li>
+            <li>
+              <img src="assets/svg/tick.svg" class="img-fluid" alt="tick" />15+
+              category to explore
+            </li>
+          </ul>
+          <a data-cursor="pointer" class="btn-arrow" href="">
+            <div class="icon-arrow">
+              <i class="iconsax" data-icon="arrow-up"></i>
+            </div>
+            Contact us now
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- contact us end -->
+
+    <!-- footer section start-->
+    <footer>
+      <div class="container">
+        <div class="footer-row">
+          <div class="footer-main">
+            <a href="#" class="footer-logo"
+              ><img src="assets/images/logo.svg" class="img-fluid" alt=""
+            /></a>
+            <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+            <form>
+              <div class="input-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Enter your mail"
+                />
+                <a href="" data-cursor="pointer" class="btn-basic">Subscribe</a>
+              </div>
+            </form>
+            <ul class="social-links">
+              <li>
+                <a data-cursor="pointer" href="https://www.facebook.com/"
+                  ><img
+                    src="assets/svg/social/fb.svg"
+                    class="img-fluid"
+                    alt="facebook"
+                /></a>
+              </li>
+              <li>
+                <a data-cursor="pointer" href="https://in.linkedin.com/"
+                  ><img
+                    src="assets/svg/social/linkedin.svg"
+                    class="img-fluid"
+                    alt="linkedin"
+                /></a>
+              </li>
+              <li>
+                <a data-cursor="pointer" href="https://www.instagram.com/"
+                  ><img
+                    src="assets/svg/social/insta.svg"
+                    class="img-fluid"
+                    alt="insta"
+                /></a>
+              </li>
+              <li>
+                <a data-cursor="pointer" href="https://twitter.com/login"
+                  ><img
+                    src="assets/svg/social/twitter.svg"
+                    class="img-fluid"
+                    alt="twitter"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="link-section">
+            <div class="footer-title">
+              <img src="assets/svg/star.svg" class="img-fluid" alt="star" />
+              Quick Link
+            </div>
+            <div class="footer-content">
+              <ul>
+                <li><a data-cursor="pointer" href="index.html">Home</a></li>
+                <li>
+                  <a data-cursor="pointer" href="service.html">Service</a>
+                </li>
+                <li>
+                  <a data-cursor="pointer" href="pricing.html">Pricing</a>
+                </li>
+                <li>
+                  <a data-cursor="pointer" href="contact-us.html">Contact us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="link-section">
+            <div class="footer-title">
+              <img src="assets/svg/star.svg" class="img-fluid" alt="star" /> Our
+              service
+            </div>
+            <div class="footer-content">
+              <ul>
+                <li><a data-cursor="pointer" href="chat.html">Generate</a></li>
+                <li>
+                  <a data-cursor="pointer" href="chat.html">Find Image</a>
+                </li>
+                <li>
+                  <a data-cursor="pointer" href="chat.html">Email writer</a>
+                </li>
+                <li>
+                  <a data-cursor="pointer" href="chat.html">Social media</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="link-section">
+            <div class="footer-title">
+              <img src="assets/svg/star.svg" class="img-fluid" alt="star" /> Our
+              company
+            </div>
+            <div class="footer-content">
+              <ul>
+                <li><a data-cursor="pointer" href="login.html">Login</a></li>
+                <li>
+                  <a data-cursor="pointer" href="blog-listing.html"
+                    >Blog listing</a
+                  >
+                </li>
+                <li>
+                  <a data-cursor="pointer" href="blog-grid.html">Blog Grid</a>
+                </li>
+                <li>
+                  <a data-cursor="pointer" href="blog-details.html"
+                    >Blog Details</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <h4>@2023 All the Copyright Reserved.</h4>
+          <ul class="footer-links">
+            <li><a href="terms.html">Privacy Policy </a></li>
+            <li><a href="terms.html">Terms & Condition </a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section end-->
+
+    <!-- Tap To Top Button Start -->
+    <div class="tap-to-top-box hide">
+      <button class="tap-to-top-button">
+        <i class="iconsax" data-icon="chevron-up"></i>
+      </button>
+    </div>
+    <!-- Tap To Top Button End -->
+
+    <!--custom cursor start  -->
+    <div id="cursor"></div>
+    <div id="cursor-border"></div>
+    <!--custom cursor start  -->
+
+    <!-- Bootstrap js-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- slider js-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/custom-slider.js"></script>
+
+    <!-- custom cursor -->
+    <script src="assets/js/custom-cursor.js"></script>
+
+    <!-- aos animation -->
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/custom-aos.js"></script>
+
+    <!-- header sticky js -->
+    <script src="assets/js/header_sticky.js"></script>
+
+    <!-- iconsax js -->
+    <script src="assets/js/iconsax.js"></script>
+
+    <!-- Theme js-->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

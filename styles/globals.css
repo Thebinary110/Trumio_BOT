@@ -1,0 +1,86 @@
+@import url("./assets/css/vendors/aos.css");
+@import url("./assets/css/vendors/bootstrap.css");
+@import url("./assets/css/vendors/iconsax.css");
+@import url("./assets/css/vendors/remixicon.css");
+@import url("./assets/css/vendors/swiper-bundle.min.css");
+@import url("./assets/css/vendors/vendors/aos.css");
+@import url("./assets/css/style.css");
+
+.icon-custom {
+  font-size: 1.5rem;
+  color: #3bedb2;
+}
+
+.mobil_custom_menu {
+  font-size: 1.5rem;
+  color: #3bedb2;
+}
+
+.icon_size {
+  font-size: 1.5rem;
+}
+
+/* //CONATINER */
+
+#chat_container {
+  flex: 1;
+
+  margin-left: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  padding-bottom: 150px;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 15px;
+}
+
+.chat {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.profile {
+  width: 36px;
+  height: 36px;
+  border-radius: 5px;
+
+  background: #fd7e14;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ai .profile {
+  background: #10a37f;
+}
+
+.profile img {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+}
+
+.message {
+  flex: 1;
+  color: #3bedb2;
+  white-space: pre-wrap;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.new_space {
+  padding: 0 1rem;
+}

@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="megabot" />
+    <meta name="keywords" content="megabot" />
+    <meta name="author" content="megabot" />
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.png"
+      type="image/x-icon"
+    />
+    <title>Megabot</title>
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap css -->
+    <link
+      id="rtl-link"
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/vendors/bootstrap.css"
+    />
+
+    <!-- remixicon css -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/vendors/remixicon.css"
+    />
+
+    <!-- iconsax css -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/vendors/iconsax.css"
+    />
+
+    <!-- animation css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors/aos.css" />
+
+    <!-- swiper slider css -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/vendors/swiper-bundle.min.css"
+    />
+
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  </head>
+
+  <body class="inner-bg">
+    <!-- header start -->
+    <header>
+      <button
+        class="navbar-toggler d-xl-none d-inline navbar-menu-button"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#primaryMenu"
+      >
+        <span class="navbar-toggler-icon">
+          <i class="iconsax" data-icon="text-align-justify"></i>
+        </span>
+      </button>
+      <a href="index.html">
+        <img src="assets/images/logo.svg" class="img-fluid" alt="logo" />
+      </a>
+      <nav class="header-nav-middle">
+        <div
+          class="main-nav navbar navbar-expand-xl navbar-light navbar-sticky"
+        >
+          <div class="offcanvas offcanvas-collapse order-xl-2" id="primaryMenu">
+            <div class="offcanvas-header navbar-shadow">
+              <h5 class="mb-0">Back</h5>
+              <button
+                class="btn-close lead"
+                type="button"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="chat.html">Chat</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="javascript:void(0)"
+                    data-bs-toggle="dropdown"
+                    >Pages</a
+                  >
+
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="404.html">404</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="login.html">Login</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="reset-password.html"
+                        >Reset Password</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="otp.html">OTP</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="blog-grid.html"
+                        >Blog Grid</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="blog-listing.html"
+                        >Blog Listing</a
+                      >
+                    </li>
+                    <li class="active">
+                      <a class="dropdown-item" href="blog-details.html"
+                        >Blog Details</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="terms.html"
+                        >Terms & Condition</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="service.html">service</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="pricing.html">pricing</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="contact-us.html">contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <a
+        data-cursor="pointer"
+        href="login.html"
+        class="btn btn-theme d-sm-inline-block d-none"
+        ><span>Login Now</span></a
+      >
+    </header>
+    <!-- header end -->
+
+    <!-- breadcrumb section start -->
+    <section class="breadcrumb-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="breadcrumb-content">
+              <div>
+                <h2>
+                  <img
+                    src="assets/images/breadcrumb-title.png"
+                    class="img-fluid"
+                    alt="title-effect"
+                  />Blog Details
+                </h2>
+                <p>
+                  <i class="ri-subtract-line"></i>Discover the most recent blogs
+                  about artificial intelligence here.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 d-lg-inline-block d-none">
+            <div class="breadcrumb-img">
+              <img
+                src="assets/svg/blog-details-vector.svg"
+                class="img-fluid"
+                alt="service"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- breadcrumb section end -->
+
+    <!-- blog details start -->
+    <section class="ratio_40">
+      <div class="container">
+        <div class="blog-details">
+          <div class="blog-img">
+            <img
+              src="assets/images/blog/7.jpg"
+              class="img-fluid w-100 bg-img"
+              alt="blog"
+            />
+          </div>
+          <div class="blog-title-box">
+            <a data-cursor="pointer" class="main-title" href="blog-details.html"
+              >Leading 6 Modern Content Marketing Trends for 2023</a
+            >
+            <ul>
+              <li>
+                <img
+                  src="assets/images/user/2.jpg"
+                  class="img-fluid avtar"
+                  alt="author"
+                />
+                Smith John
+              </li>
+              <li>
+                <i class="iconsax" data-icon="calendar-add"></i> 14 march 2023
+              </li>
+              <li><i class="iconsax" data-icon="clock"></i> 5 min</li>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="col-lg-8 col-md-10 m-auto">
+              <div class="blog-main-content">
+                <h3>
+                  <img
+                    src="assets/svg/title-effect2.svg"
+                    class="img-fluid"
+                    alt="effect"
+                  />OVERVIEW
+                </h3>
+                <p>
+                  It may be difficult to keep up with the current trends in the
+                  fast-paced world of content marketing. However, if you want
+                  your company to stand out and develop, you must stay ahead of
+                  the competition.
+                </p>
+                <p>
+                  It's time to examine your company's six most essential content
+                  marketing trends in further depth.
+                </p>
+                <h3 class="mt-xl-5 mt-md-3 mt-2">
+                  <img
+                    src="assets/svg/title-effect2.svg"
+                    class="img-fluid"
+                    alt="effect"
+                  />how I manage video content
+                </h3>
+                <p>To improve your video content, follow these tips :</p>
+                <ol>
+                  <li>
+                    A few high-quality videos can have great marketing results.
+                    Don't chase quantity.
+                  </li>
+                  <li>
+                    When used with a tripod, ring light, and a great camera, a
+                    mobile phone can do wonders.
+                  </li>
+                  <li>
+                    When you are trying to raise your brand awareness, have in
+                    mind your brand's values. No matter of content format,
+                    remember who your customers are. Always align that knowledge
+                    with your brand story.
+                  </li>
+                  <li>
+                    Use relevant keywords and include transcripts and captions.
+                    This will ensure your ideal customers will find you in a
+                    broad content landscape.
+                  </li>
+                  <li>
+                    Internet users consume the majority of video content on
+                    mobile devices. This is why it is important to optimize your
+                    videos for mobile viewing. Use the vertical or square format
+                    and add captions. Also, optimize load times for a seamless
+                    mobile experience.
+                  </li>
+                  <li>
+                    When it comes to video marketing, authenticity is key. You
+                    should avoid overly scripted or overly promotional content.
+                    Instead, strive for genuine, relatable videos that connect
+                    with your audience personally.
+                  </li>
+                  <li>
+                    A strong CTA encourages viewers to take action after
+                    watching your video. Whether to visit your website,
+                    subscribe to your channel, or purchase.
+                  </li>
+                  <li>
+                    Video analytics and feedback from your audience are
+                    important. Use your insights to refine and improve your
+                    video content strategy. Try experimenting with different
+                    video styles, lengths, and topics. In this way, you will see
+                    what resonates best with your audience.
+                  </li>
+                </ol>
+                <img
+                  src="assets/images/blog/8.jpg"
+                  class="img-fluid rounded-3 my-4"
+                  alt="blog"
+                />
+                <h3 class="mt-xl-5 mt-md-3 mt-2">
+                  <img
+                    src="assets/svg/title-effect2.svg"
+                    class="img-fluid"
+                    alt="effect"
+                  />Live Streaming
+                </h3>
+                <p>
+                  Another trend that's gaining momentum in the content marketing
+                  world is live streaming. Live streaming gives you the ability
+                  to connect with your audience in real time. This is an
+                  excellent way to build engagement and establish trust with
+                  your followers.
+                </p>
+                <p>
+                  You can be hosting a Q&A session, launch a new product, or
+                  share behind-the-scenes content. With live streaming, you can
+                  showcase your brand's personality and connect with your
+                  audience more personally.
+                </p>
+                <p>
+                  A few quick tips for incorporating live streaming into your
+                  marketing strategy :
+                </p>
+                <ol>
+                  <li>
+                    Plan ahead : Create a plan before going live. Ask yourself
+                    what your live stream's purpose, goals, and content are.
+                    Prepare everything you may need during the broadcast. That
+                    can be visuals, props, or talking points.
+                  </li>
+                  <li>
+                    Promote your live stream : It is important to build
+                    anticipation and attract your viewers. You can do that by
+                    promoting your live stream across your social media
+                    channels, website, and email newsletters. Consider using
+                    teasers, countdowns, and reminders to generate interest and
+                    boost attendance
+                  </li>
+                  <li>
+                    Interact with your audience : Engage with your viewers
+                    during the live stream. Respond to their questions,
+                    comments, and feedback in real time. Encourage engagement by
+                    asking questions, conducting polls, and offering incentives
+                    for participation.
+                  </li>
+                  <li>
+                    Ensure valuable content : Your live stream should deliver
+                    valuable and relevant content to your audience. For example,
+                    tutorials, interviews, product demonstrations,
+                    behind-the-scenes glimpses, or exclusive offers. Keep your
+                    content engaging and informative to keep viewers interested.
+                  </li>
+                  <li>
+                    Test your equipment and connection : Ensure a stable
+                    internet connection and test your equipment before going
+                    live. This includes cameras, microphones, and lighting. To
+                    avoid technical issues during the broadcast, you should use
+                    a backup connection or equipment.
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blog details end -->
+
+    <!-- comment section start -->
+    <section class="comment-section pb-md-5 pb-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 m-auto">
+            <div class="comment-box overflow-hidden">
+              <div class="leave-title">
+                <h3>Comments</h3>
+              </div>
+
+              <div class="user-comment-box">
+                <ul>
+                  <li>
+                    <div class="user-box border-color">
+                      <div class="reply-button">
+                        <span class="text-theme-color">Reply</span>
+                      </div>
+                      <div class="user-image">
+                        <img
+                          src="assets/images/user/1.jpg"
+                          class="img-fluid"
+                          alt=""
+                        />
+                        <div class="user-name">
+                          <h6>30 Jan, 2022</h6>
+                          <h5 class="text-title">Glenn Greer</h5>
+                        </div>
+                      </div>
+
+                      <div class="user-contain">
+                        <p>
+                          "This proposal is a win-win situation which will cause
+                          a stellar paradigm shift, and produce a multi-fold
+                          increase in deliverables a better understanding"
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="user-box border-color">
+                      <div class="reply-button">
+                        <span class="text-theme-color">Reply</span>
+                      </div>
+                      <div class="user-image">
+                        <img
+                          src="assets/images/user/2.jpg"
+                          class="img-fluid"
+                          alt=""
+                        />
+                        <div class="user-name">
+                          <h6>30 Jan, 2022</h6>
+                          <h5 class="text-title">Glenn Greer</h5>
+                        </div>
+                      </div>
+
+                      <div class="user-contain">
+                        <p>
+                          "Yeah, I think maybe you do. Right, gimme a Pepsi
+                          free. Of course, the Enchantment Under The Sea Dance
+                          they're supposed to go to this, that's where they kiss
+                          for the first time. You'll find out. Are you sure
+                          about this storm?"
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="li-padding">
+                    <div class="user-box">
+                      <div class="reply-button">
+                        <span class="text-theme-color">Reply</span>
+                      </div>
+                      <div class="user-image">
+                        <img
+                          src="assets/images/user/3.jpg"
+                          class="img-fluid"
+                          alt=""
+                        />
+                        <div class="user-name">
+                          <h6>30 Jan, 2022</h6>
+                          <h5 class="text-title">Glenn Greer</h5>
+                        </div>
+                      </div>
+
+                      <div class="user-contain">
+                        <p>
+                          "Cheese slices goat cottage cheese roquefort cream
+                          cheese pecorino cheesy feet when the cheese comes out
+                          everybody's happy"
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="leave-box mt-4">
+              <div class="leave-comment">
+                <div class="comment-notes">
+                  <h3 class="text-title mb-2">Leave Comment</h3>
+                  <p class="text-content mb-4">
+                    Your email address will not be published. Required fields
+                    are marked
+                  </p>
+                </div>
+                <form class="auth-form">
+                  <div class="row g-3">
+                    <div class="col-sm-6">
+                      <div class="blog-input">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="exampleFormControlInput1"
+                          placeholder="Full Name"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                      <div class="blog-input">
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="exampleFormControlInput2"
+                          placeholder="Enter Email Address"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="col-12">
+                      <div class="blog-input">
+                        <textarea
+                          class="form-control"
+                          id="exampleFormControlTextarea1"
+                          rows="4"
+                          placeholder="Comments"
+                        ></textarea>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button class="btn btn-solid ms-xxl-auto mt-sm-5 mt-4">
+                    Post Comment
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- comment section end -->
+
+    <!-- contact us start -->
+    <section class="info-section section-b-space">
+      <div class="container">
+        <div
+          class="info-box"
+          data-aos="fade-in"
+          data-aos-duration="1000"
+          data-aos-delay="100"
+        >
+          <div class="hand-effect d-md-block d-none">
+            <img
+              src="assets/svg/hand.svg"
+              class="img-fluid left-hand"
+              alt="hand"
+            />
+            <img
+              src="assets/svg/hand.svg"
+              class="img-fluid right-hand"
+              alt="hand"
+            />
+          </div>
+          <h2>
+            Ready to
+            <span
+              >move
+              <img
+                src="assets/svg/title-effect.svg"
+                class="img-fluid"
+                alt="title-effect"
+            /></span>
+            ahead?
+          </h2>
+          <p>
+            With the help of our ground-breaking AI tool, unlock the potential
+            of cutting-edge AI technology and increase your productivity to new
+            heights. Embrace the future today and let our AI tool redefine
+            what's possible for you.
+          </p>
+          <ul>
+            <li>
+              <img src="assets/svg/tick.svg" class="img-fluid" alt="tick" />Free
+              images for lifetime
+            </li>
+            <li>
+              <img src="assets/svg/tick.svg" class="img-fluid" alt="tick" />Get
+              details on any topic
+            </li>
+            <li>
+              <img
+                src="assets/svg/tick.svg"
+                class="img-fluid"
+                alt="tick"
+              />Quick advisor to help you
+            </li>
+            <li>
+              <img src="assets/svg/tick.svg" class="img-fluid" alt="tick" />15+
+              category to explore
+            </li>
+          </ul>
+          <a data-cursor="pointer" class="btn-arrow" href="">
+            <div class="icon-arrow">
+              <i class="iconsax" data-icon="arrow-up"></i>
+            </div>
+            Contact us now
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- contact us end -->
+
+    <!-- footer section start-->
+    <footer>
+      <div class="container">
+        <div class="footer-row">
+          <div class="footer-main">
+            <a href="#" class="footer-logo"
+              ><img src="assets/images/logo.svg" class="img-fluid" alt=""
+            /></a>
+            <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+            <form>
+              <div class="input-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Enter your mail"
+                />
+                <a href="" data-cursor="pointer" class="btn-basic">Subscribe</a>
+              </div>
+            </form>
+            <ul class="social-links">
+              <li>
+                <a data-cursor="pointer" href="https://www.facebook.com/"
+                  ><img
+                    src="assets/svg/social/fb.svg"
+                    class="img-fluid"
+                    alt="facebook"
+                /></a>
+              </li>
+              <li>
+                <a data-cursor="pointer" href="https://in.linkedin.com/"
+                  ><img
+                    src="assets/svg/social/linkedin.svg"
+                    class="img-fluid"
+                    alt="linkedin"
+                /></a>
+              </li>
+              <li>
+                <a data-cursor="pointer" href="https://www.instagram.com/"
+                  ><img
+                    src="assets/svg/social/insta.svg"
+                    class="img-fluid"
+                    alt="insta"
+                /></a>
+              </li>
+              <li>
+                <a data-cursor="pointer" href="https://twitter.com/login"
+                  ><img
+                    src="assets/svg/social/twitter.svg"
+                    class="img-fluid"
+                    alt="twitter"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="link-section">
+            <div class="footer-title">
+              <img src="assets/svg/star.svg" class="img-fluid" alt="star" />
+              Quick Link
+            </div>
+            <div class="footer-content">
+              <ul>
+                <li><a data-cursor="pointer" href="index.html">Home</a></li>
+                <li>
+                  <a data-cursor="pointer" href="service.html">Service</a>
+                </li>
+                <li>
+                  <a data-cursor="pointer" href="pricing.html">Pricing</a>
+                </li>
+                <li>
+                  <a data-cursor="pointer" href="contact-us.html">Contact us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="link-section">
+            <div class="footer-title">
+              <img src="assets/svg/star.svg" class="img-fluid" alt="star" /> Our
+              service
+            </div>
+            <div class="footer-content">
+              <ul>
+                <li><a data-cursor="pointer" href="chat.html">Generate</a></li>
+                <li>
+                  <a data-cursor="pointer" href="chat.html">Find Image</a>
+                </li>
+                <li>
+                  <a data-cursor="pointer" href="chat.html">Email writer</a>
+                </li>
+                <li>
+                  <a data-cursor="pointer" href="chat.html">Social media</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="link-section">
+            <div class="footer-title">
+              <img src="assets/svg/star.svg" class="img-fluid" alt="star" /> Our
+              company
+            </div>
+            <div class="footer-content">
+              <ul>
+                <li><a data-cursor="pointer" href="login.html">Login</a></li>
+                <li>
+                  <a data-cursor="pointer" href="blog-listing.html"
+                    >Blog listing</a
+                  >
+                </li>
+                <li>
+                  <a data-cursor="pointer" href="blog-grid.html">Blog Grid</a>
+                </li>
+                <li>
+                  <a data-cursor="pointer" href="blog-details.html"
+                    >Blog Details</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <h4>@2023 All the Copyright Reserved.</h4>
+          <ul class="footer-links">
+            <li><a href="terms.html">Privacy Policy </a></li>
+            <li><a href="terms.html">Terms & Condition </a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section end-->
+
+    <!-- Tap To Top Button Start -->
+    <div class="tap-to-top-box hide">
+      <button class="tap-to-top-button">
+        <i class="iconsax" data-icon="chevron-up"></i>
+      </button>
+    </div>
+    <!-- Tap To Top Button End -->
+
+    <!--custom cursor start  -->
+    <div id="cursor"></div>
+    <div id="cursor-border"></div>
+    <!--custom cursor start  -->
+
+    <!-- Bootstrap js-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- slider js-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/custom-slider.js"></script>
+
+    <!-- custom cursor -->
+    <script src="assets/js/custom-cursor.js"></script>
+
+    <!-- aos animation -->
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/custom-aos.js"></script>
+
+    <!-- header sticky js -->
+    <script src="assets/js/header_sticky.js"></script>
+
+    <!-- iconsax js -->
+    <script src="assets/js/iconsax.js"></script>
+
+    <!-- Theme js-->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
