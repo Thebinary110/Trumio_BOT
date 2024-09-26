@@ -1,6 +1,9 @@
 {
+  "/chat": "pages/chat.html",
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/": "pages/index.html",
+  "/login": "pages/login.html",
   "/_document": "pages/_document.js",
-  "/chat": "pages/chat.js"
+  "/404": "pages/404.html"
 }
